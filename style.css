@@ -1,18 +1,26 @@
 html {
-  /* Setting a base font size of 10px give us easier rem calculations
-     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
-   */
   font-size: 10px;
 }
 
+p{
+  margin: 0;
+}
+
+#description{
+  text-align: center;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 body {
-  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-family: "rajdhani", "Roboto", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
   color: #333;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -20,8 +28,12 @@ h1 {
   margin-bottom: 0;
 }
 
+#title{
+  font-size: xx-large;
+}
+
 @media (max-width: 460px) {
-  h1 {
+  #title {
     font-size: 3.5rem;
     line-height: 1.2;
   }
@@ -40,10 +52,10 @@ a:visited {
 }
 
 #main {
-  margin: 30px 8px;
+  margin: 5px 5px;
   padding: 15px;
   border-radius: 5px;
-  background: #eee;
+  background: rgb(255, 183, 183);
 }
 
 @media (max-width: 460px) {
